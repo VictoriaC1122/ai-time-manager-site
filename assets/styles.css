@@ -28,6 +28,7 @@ html {
 body {
   margin: 0;
   font-family: "Manrope", "SF Pro Text", "Inter", sans-serif;
+  font-size: 16px;
   color: var(--ink);
   background:
     radial-gradient(circle at top left, rgba(61, 179, 146, 0.14), transparent 28%),
@@ -76,7 +77,7 @@ a {
 
 .brand strong {
   display: block;
-  font-size: 1.08rem;
+  font-size: 1.2rem;
   letter-spacing: 0.01em;
   font-family: "Playfair Display", Georgia, serif;
 }
@@ -88,7 +89,7 @@ a {
 .eyebrow {
   display: inline-block;
   margin: 0 0 6px;
-  font-size: 0.78rem;
+  font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -103,7 +104,7 @@ a {
 
 .nav-links a {
   padding: 11px 16px;
-  font-size: 0.96rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--muted);
   border-radius: 999px;
@@ -137,14 +138,14 @@ a {
 }
 
 .hero-copy {
-  padding: 44px;
+  padding: 48px;
 }
 
 .hero-copy h1,
 .policy-hero h1 {
   margin: 0 0 18px;
-  font-size: clamp(2.3rem, 4vw, 4.4rem);
-  line-height: 1.04;
+  font-size: clamp(2.5rem, 4.4vw, 4.7rem);
+  line-height: 1.1;
   letter-spacing: -0.04em;
   font-family: "Playfair Display", Georgia, serif;
   font-weight: 700;
@@ -154,8 +155,8 @@ a {
 .policy-hero p,
 .policy-card p,
 .feature-panel p {
-  font-size: 1.05rem;
-  line-height: 1.8;
+  font-size: 1.08rem;
+  line-height: 1.95;
   color: var(--muted);
 }
 
@@ -170,10 +171,10 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 52px;
-  padding: 0 22px;
+  min-height: 54px;
+  padding: 0 24px;
   border-radius: 999px;
-  font-size: 1rem;
+  font-size: 1.02rem;
   font-weight: 700;
   transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
 }
@@ -195,7 +196,7 @@ a {
 }
 
 .hero-card {
-  padding: 30px;
+  padding: 32px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -241,7 +242,7 @@ a {
 
 .metric-card span {
   margin-bottom: 6px;
-  font-size: 0.85rem;
+  font-size: 0.88rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -249,8 +250,8 @@ a {
 }
 
 .metric-card strong {
-  font-size: 1.15rem;
-  line-height: 1.35;
+  font-size: 1.22rem;
+  line-height: 1.45;
 }
 
 .content-grid {
@@ -261,13 +262,13 @@ a {
 }
 
 .feature-panel {
-  padding: 30px;
+  padding: 32px;
 }
 
 .feature-panel h2 {
   margin: 0 0 14px;
-  font-size: 1.8rem;
-  line-height: 1.16;
+  font-size: 2rem;
+  line-height: 1.22;
   letter-spacing: -0.03em;
   font-family: "Playfair Display", Georgia, serif;
   font-weight: 700;
@@ -278,7 +279,7 @@ a {
   align-items: center;
   gap: 8px;
   margin-top: 14px;
-  font-size: 1rem;
+  font-size: 1.02rem;
   font-weight: 700;
   color: var(--accent-deep);
 }
@@ -291,13 +292,13 @@ a {
 
 .policy-hero,
 .policy-card {
-  padding: 34px;
+  padding: 38px;
 }
 
 .policy-card h2 {
-  margin: 30px 0 10px;
-  font-size: 1.28rem;
-  line-height: 1.35;
+  margin: 34px 0 12px;
+  font-size: 1.46rem;
+  line-height: 1.4;
   letter-spacing: -0.02em;
   font-family: "Playfair Display", Georgia, serif;
   font-weight: 600;
@@ -320,7 +321,7 @@ a {
   flex-wrap: wrap;
   padding: 24px 6px 0;
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 
 .policy-actions {
@@ -361,15 +362,23 @@ a {
 
   .hero-copy h1,
   .policy-hero h1 {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
   }
 
   .hero-text,
   .policy-hero p,
   .policy-card p,
   .feature-panel p {
-    font-size: 0.98rem;
-    line-height: 1.74;
+    font-size: 1.03rem;
+    line-height: 1.85;
+  }
+
+  .feature-panel h2 {
+    font-size: 1.72rem;
+  }
+
+  .policy-card h2 {
+    font-size: 1.32rem;
   }
 
   .button {
