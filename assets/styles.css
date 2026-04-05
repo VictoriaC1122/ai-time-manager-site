@@ -27,7 +27,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "SF Pro Display", "SF Pro Text", "Inter", "Segoe UI", sans-serif;
+  font-family: "Manrope", "SF Pro Text", "Inter", sans-serif;
   color: var(--ink);
   background:
     radial-gradient(circle at top left, rgba(61, 179, 146, 0.14), transparent 28%),
@@ -78,6 +78,11 @@ a {
   display: block;
   font-size: 1.08rem;
   letter-spacing: 0.01em;
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+.brand div {
+  min-width: 0;
 }
 
 .eyebrow {
@@ -141,6 +146,8 @@ a {
   font-size: clamp(2.3rem, 4vw, 4.4rem);
   line-height: 1.04;
   letter-spacing: -0.04em;
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 700;
 }
 
 .hero-text,
@@ -262,6 +269,8 @@ a {
   font-size: 1.8rem;
   line-height: 1.16;
   letter-spacing: -0.03em;
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 700;
 }
 
 .text-link {
@@ -290,6 +299,8 @@ a {
   font-size: 1.28rem;
   line-height: 1.35;
   letter-spacing: -0.02em;
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 600;
 }
 
 .policy-card h2:first-child {
@@ -310,6 +321,14 @@ a {
   padding: 24px 6px 0;
   color: var(--muted);
   font-size: 0.95rem;
+}
+
+.policy-actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 34px;
+  padding-top: 8px;
 }
 
 @media (max-width: 900px) {
@@ -354,6 +373,10 @@ a {
   }
 
   .button {
+    width: 100%;
+  }
+
+  .policy-actions .button {
     width: 100%;
   }
 }
